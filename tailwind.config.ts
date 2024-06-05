@@ -8,10 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily : {
+        'serif' : ['Montserrat']
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      colors: {
+        activeNav: '#585858',
+        dullNav: '#9A9A9A',
+        colorPrimary : '#FF005C'
       },
     },
   },
