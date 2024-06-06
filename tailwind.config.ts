@@ -18,7 +18,7 @@ const config: Config = {
       },
       colors: {
         activeNav: '#585858',
-        dullNav: '#9A9A9A',
+        dullNav: '#ffffff',
         colorPrimary : '#FF005C'
       },
     },
